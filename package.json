@@ -1,0 +1,39 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "APV JS-FullStack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarn120196/JS_APV.git"
+  },
+  "keywords": [
+    "Node",
+    "Compass",
+    "MongoDB",
+    "JS"
+  ],
+  "author": "Omar Alfredo Noyola Monroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarn120196/JS_APV/issues"
+  },
+  "homepage": "https://github.com/omarn120196/JS_APV#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.2",
+    "nodemailer": "^6.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
